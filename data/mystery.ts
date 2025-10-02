@@ -23,7 +23,7 @@ export const blackwoodMystery: Mystery = {
       description: "Sharp-minded businesswoman with a keen eye for profit. Has been Victor's partner for 15 years.",
       motive: "Victor was planning to buy her out of the gallery at a fraction of what her shares were worth. She discovered this two weeks ago.",
       alibi: "Claims she was in the library making business calls between 10:15 PM and 11:30 PM",
-      imageUrl: "/images/margaret.jpg",
+      imageUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&q=80",
       interview: [
         {
           question: "Where were you between 10:30 and 11:15 PM?",
@@ -56,7 +56,7 @@ export const blackwoodMystery: Mystery = {
       description: "Victor's only child. Talented artist who rejected the family business. Recently reconciled with her father after 5 years of no contact.",
       motive: "Victor had written her out of his will completely after their estrangement. She only discovered this last month when her mother passed away.",
       alibi: "Says she was in the conservatory painting and didn't notice the time",
-      imageUrl: "/images/sophia.jpg",
+      imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&q=80",
       interview: [
         {
           question: "When did you last speak with your father?",
@@ -89,7 +89,7 @@ export const blackwoodMystery: Mystery = {
       description: "The quintessential English butler. Has served the Blackwood family since Victor's father was alive. Knows every secret of the estate.",
       motive: "Victor discovered Edmund had been stealing valuable wine from the cellar and was going to press charges. Edmund would lose his pension and face jail time.",
       alibi: "Was serving drinks and clearing dishes. Multiple guests saw him throughout the evening.",
-      imageUrl: "/images/edmund.jpg",
+      imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&q=80",
       interview: [
         {
           question: "Walk us through your evening, Edmund.",
@@ -122,7 +122,7 @@ export const blackwoodMystery: Mystery = {
       description: "Renowned art historian who has been in bitter competition with Victor for decades. Recently lost a major acquisition to him.",
       motive: "Victor acquired the 'Madonna of Valencia' through questionable means, a painting Isabella had been researching for 10 years. The acquisition ruined her reputation and cost her her position at the museum.",
       alibi: "Claims she was in the smoking room with documents, preparing a lawsuit against Victor",
-      imageUrl: "/images/isabella.jpg",
+      imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&q=80",
       interview: [
         {
           question: "Why did you accept Victor's invitation tonight?",
@@ -155,7 +155,7 @@ export const blackwoodMystery: Mystery = {
       description: "Charming dealer who specializes in acquiring rare pieces through unconventional means. Has been working with Victor on secret deals.",
       motive: "Victor refused to pay Thornton his commission on the Madonna deal - $500,000. Thornton had been blackmailing Victor about the painting's stolen provenance. Victor threatened to expose Thornton's own illegal dealings.",
       alibi: "Says he was on the terrace smoking cigars and enjoying the storm between 10:15 and 11:00 PM",
-      imageUrl: "/images/james.jpg",
+      imageUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&q=80",
       interview: [
         {
           question: "How did you know Victor Blackwood?",

@@ -53,15 +53,24 @@ export default function SuspectsPage() {
                         : 'border-red-700 bg-red-900/20'
                     } hover:border-amber-600`}
                   >
-                    <div className="flex items-start justify-between mb-2">
-                      <div>
-                        <h3 className="font-bold text-lg">{suspect.name}</h3>
-                        <p className="text-sm text-gray-400">{suspect.occupation}</p>
-                        <p className="text-xs text-gray-500 mt-1">{suspect.relationship}</p>
+                    <div className="flex items-start gap-3">
+                      <img
+                        src={suspect.imageUrl}
+                        alt={suspect.name}
+                        className="w-16 h-16 rounded-lg object-cover border-2 border-gray-700"
+                      />
+                      <div className="flex-1">
+                        <div className="flex items-start justify-between mb-1">
+                          <div>
+                            <h3 className="font-bold text-lg">{suspect.name}</h3>
+                            <p className="text-sm text-gray-400">{suspect.occupation}</p>
+                            <p className="text-xs text-gray-500 mt-1">{suspect.relationship}</p>
+                          </div>
+                          {!isExamined && (
+                            <span className="text-xs bg-amber-600 px-2 py-1 rounded">NEW</span>
+                          )}
+                        </div>
                       </div>
-                      {!isExamined && (
-                        <span className="text-xs bg-amber-600 px-2 py-1 rounded">NEW</span>
-                      )}
                     </div>
                   </button>
                 );
@@ -74,13 +83,17 @@ export default function SuspectsPage() {
             {selectedSuspect ? (
               <div className="bg-gray-800 border-2 border-amber-700 rounded-lg p-6">
                 <div className="mb-6 pb-6 border-b border-gray-700">
-                  <div className="flex items-start justify-between mb-4">
-                    <div>
+                  <div className="flex items-start gap-6 mb-4">
+                    <img
+                      src={selectedSuspect.imageUrl}
+                      alt={selectedSuspect.name}
+                      className="w-32 h-32 rounded-xl object-cover border-4 border-amber-700 shadow-lg"
+                    />
+                    <div className="flex-1">
                       <h2 className="text-3xl font-bold text-amber-400 mb-1">{selectedSuspect.name}</h2>
                       <p className="text-lg text-gray-300">{selectedSuspect.occupation}</p>
                       <p className="text-sm text-gray-500">{selectedSuspect.age} years old</p>
                     </div>
-                    <div className="text-6xl">👤</div>
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-4 mt-4">
